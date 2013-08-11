@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-from nauka_django.views import hello, strona_glowna, current_datetime
+from nauka_django.views import hello, strona_glowna, current_datetime, hours_ahead
 
 urlpatterns = patterns('',
                        url(r'^hello/$', hello),
