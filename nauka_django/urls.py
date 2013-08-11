@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-from nauka_django.views import hello, strona glowna
+from nauka_django.views import hello, strona_glowna
 
 urlpatterns = patterns('',
                        url(r'^hello/$', hello),
